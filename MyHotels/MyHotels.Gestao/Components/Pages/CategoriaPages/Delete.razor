@@ -1,0 +1,86 @@
+﻿@page "/categorias/delete"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IImagensService Imagens
+@inject IMensagensService Mensagens
+
+<PageTitle>Apagar Categoria</PageTitle>
+
+<h1>Apagar Categoria</h1>
+
+<h3>Tem a certeza que deseja apagar esta categoria?</h3>
+<div>
+    <hr />
+    @if (Categoria is null)
+    {
+        <p><em>A carregar...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+            <dt class="col-sm-2">Nome:</dt>
+            <dd class="col-sm-10">@Categoria.Nome</dd>
+
+            <dt class="col-sm-2">Imagem:</dt>
+            <dd class="col-sm-10">
+                @if (Categoria.Imagem != null)
+                {
+                    <img src="@Imagens.Src(Categoria.Imagem, Categoria.UrlImagem)" alt="Imagem da categoria" style="max-height: 120px;" />
+                }
+            </dd>
+        </dl>
+
+        <button class="btn btn-danger" @onclick="MostrarConfirmacao">Apagar</button>
+        <a href="/categorias" class="ms-2">Voltar à lista</a>
+    }
+</div>
+
+<Confirmacao Visivel="mostrarModal" Mensagem="@mensagemModal" OnConfirmar="ApagarCategoria" OnCancelar="CancelarConfirmacao" />
+
+@code {
+    Categoria? Categoria;
+
+    private bool mostrarModal = false;
+    private string mensagemModal = "";
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        // O Include carrega os produtos para podermos contar quantos vão ser apagados por arrasto
+        Categoria = await context.Categorias
+            .Include(c => c.Produtos)
+            .FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (Categoria is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private void MostrarConfirmacao()
+    {
+        int numProdutos = Categoria?.Produtos?.Count ?? 0;
+        mensagemModal = $"A categoria '{Categoria?.Nome}' tem {numProdutos} produto(s). Ao apagá-la, a base de dados apaga também esses produtos. Quer continuar?";
+        mostrarModal = true;
+    }
+
+    private void CancelarConfirmacao()
+    {
+        mostrarModal = false;
+    }
+
+    private async Task ApagarCategoria()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Categorias.Remove(Categoria!);
+        await context.SaveChangesAsync();
+
+        Mensagens.Mostrar($"Categoria apagada com os seus {Categoria?.Produtos?.Count ?? 0} produto(s).");
+        NavigationManager.NavigateTo("/categorias");
+    }
+}

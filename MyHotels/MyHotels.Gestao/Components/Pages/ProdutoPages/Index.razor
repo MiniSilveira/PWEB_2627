@@ -1,0 +1,54 @@
+﻿@page "/produtos"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@using Microsoft.AspNetCore.Components.QuickGrid
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject IImagensService Imagens
+
+<PageTitle>Produtos</PageTitle>
+
+<h1>Produtos (Alojamentos)</h1>
+
+<Aviso />
+
+<p>
+    <a href="produtos/create" class="btn btn-primary">Criar novo</a>
+</p>
+
+<QuickGrid Class="table" Items="ObterProdutos()">
+    <TemplateColumn Context="produto" Title="Imagem">
+        <img src="@Imagens.Src(produto.Imagem, produto.UrlImagem)" alt="Imagem do produto" style="max-height: 50px;" />
+    </TemplateColumn>
+    <PropertyColumn Property="produto => produto.Nome" Title="Alojamento" />
+    <PropertyColumn Property="produto => produto.PrecoBase" Title="Preço" Format="C" />
+    <PropertyColumn Property="produto => produto.Disponibilidade" Title="Stock" />
+
+    <!-- Sem o Include no ObterProdutos(), estas propriedades viriam a null -->
+    <PropertyColumn Property="produto => produto.Categoria!.Nome" Title="Categoria" />
+    <PropertyColumn Property="produto => produto.ModoDisponibilizacao != null ? produto.ModoDisponibilizacao.Nome : string.Empty" Title="Modo Disp." />
+
+    <TemplateColumn Context="produto">
+        <a href="@($"produtos/edit?id={produto.Id}")">Editar</a> |
+        <a href="@($"produtos/details?id={produto.Id}")">Detalhes</a> |
+        <a href="@($"produtos/delete?id={produto.Id}")">Apagar</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private MyHotels.Gestao.Data.ApplicationDbContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    // Método para incluir as tabelas relacionadas
+    private IQueryable<Produto> ObterProdutos()
+    {
+        return context.Produtos
+            .Include(p => p.Categoria)
+            .Include(p => p.ModoDisponibilizacao);
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

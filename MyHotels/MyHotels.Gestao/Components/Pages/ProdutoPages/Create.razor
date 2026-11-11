@@ -1,0 +1,163 @@
+﻿@page "/produtos/create"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IImagensService Imagens
+@inject IMensagensService Mensagens
+
+<PageTitle>Criar Produto</PageTitle>
+
+<h1>Criar Produto</h1>
+<hr />
+
+<Aviso />
+
+<div class="row">
+    <div class="col-md-6">
+        <EditForm method="post" Model="Produto" OnValidSubmit="AddProduto" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome:</label>
+                <InputText id="nome" @bind-Value="Produto.Nome" class="form-control" />
+                <ValidationMessage For="() => Produto.Nome" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="detalhe" class="form-label">Detalhe:</label>
+                <InputTextArea id="detalhe" @bind-Value="Produto.Detalhe" class="form-control" />
+                <ValidationMessage For="() => Produto.Detalhe" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="precobase" class="form-label">Preço Base:</label>
+                <InputNumber id="precobase" @bind-Value="Produto.PrecoBase" class="form-control" />
+                <ValidationMessage For="() => Produto.PrecoBase" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="disponibilidade" class="form-label">Disponibilidade (Stock):</label>
+                <InputNumber id="disponibilidade" @bind-Value="Produto.Disponibilidade" class="form-control" />
+                <ValidationMessage For="() => Produto.Disponibilidade" class="text-danger" />
+            </div>
+
+            <div class="mb-3 form-check">
+                <InputCheckbox id="visivel" @bind-Value="Produto.Visivel" class="form-check-input" />
+                <label for="visivel" class="form-check-label">Visível para reserva</label>
+            </div>
+
+            <!-- Caixa de escolha para a Categoria (Relação Obrigatória) -->
+            <div class="mb-3">
+                <label for="categoriaid" class="form-label">Categoria:</label>
+                <InputSelect id="categoriaid" @bind-Value="Produto.CategoriaId" class="form-select">
+                    <option value="0">-- escolha --</option>
+                    @foreach (var c in categorias)
+                    {
+                        <option value="@c.Id">@c.Nome</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => Produto.CategoriaId" class="text-danger" />
+            </div>
+
+            <!-- Caixa de escolha para o Modo (Relação Opcional) -->
+            <div class="mb-3">
+                <label for="mododisponibilizacaoid" class="form-label">Modo de Disponibilização:</label>
+                <InputSelect id="mododisponibilizacaoid" @bind-Value="Produto.ModoDisponibilizacaoId" class="form-select">
+                    <option value="">-- nenhum --</option>
+                    @foreach (var m in modos)
+                    {
+                        <option value="@m.Id">@m.Nome</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => Produto.ModoDisponibilizacaoId" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="imagem" class="form-label">Imagem:</label>
+                <InputFile id="imagem" OnChange="CarregaImagem" class="form-control" />
+                @if (erroImagem != null)
+                {
+                    <span class="text-danger">@erroImagem</span>
+                }
+            </div>
+
+            @if (Produto.Imagem != null)
+            {
+                <div class="mb-3">
+                    <img src="@Imagens.Src(Produto.Imagem, Produto.UrlImagem)" alt="Pré-visualização" style="max-height: 120px;" />
+                </div>
+            }
+
+            <button type="submit" class="btn btn-primary">Gravar</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/produtos">Voltar à lista</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    public Produto Produto { get; set; } = new();
+
+    private string? erroImagem;
+    private IBrowserFile? ficheiroImagem;
+
+    // Listas para popular os Dropdowns
+    private List<Categoria> categorias = new();
+    private List<ModoDisponibilizacao> modos = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        categorias = await context.Categorias.OrderBy(c => c.Ordem).ToListAsync();
+        modos = await context.ModosDisponibilizacao.OrderBy(m => m.Nome).ToListAsync();
+    }
+
+    private void CarregaImagem(InputFileChangeEventArgs e)
+    {
+        ficheiroImagem = e.File;
+        erroImagem = Imagens.Valida(e.File.Name, e.File.Size);
+        if (erroImagem == null)
+        {
+            Produto.UrlImagem = e.File.Name;
+        }
+    }
+
+    private async Task AddProduto()
+    {
+        if (erroImagem != null) return;
+
+        // Garante que o utilizador escolheu uma categoria válida (o valor "0" é a nossa prompt "-- escolha --")
+        if (Produto.CategoriaId == 0)
+        {
+            Mensagens.Mostrar("Tem de escolher uma categoria.", false);
+            return;
+        }
+
+        using var context = DbFactory.CreateDbContext();
+
+        if (ficheiroImagem != null)
+        {
+            using var stream = ficheiroImagem.OpenReadStream(Imagens.TamanhoMaximo);
+            Produto.Imagem = await Imagens.LerBytesAsync(stream);
+        }
+
+        context.Produtos.Add(Produto);
+
+        // Capturamos possíveis erros de validação (ex: regras que definimos nas entidades ou DbUpdateException)
+        try
+        {
+            await context.SaveChangesAsync();
+            Mensagens.Mostrar("Produto (Alojamento) criado com sucesso.");
+            NavigationManager.NavigateTo("/produtos");
+        }
+        catch (Exception ex)
+        {
+            Mensagens.Mostrar($"Erro ao gravar: Verifique as regras de validação. {ex.Message}", false);
+        }
+    }
+}

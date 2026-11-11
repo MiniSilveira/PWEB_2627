@@ -1,0 +1,144 @@
+﻿@page "/categorias/edit"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IImagensService Imagens
+@inject IMensagensService Mensagens
+
+<PageTitle>Editar Categoria</PageTitle>
+
+<h1>Editar Categoria</h1>
+<hr />
+
+<Aviso />
+
+@if (Categoria is null)
+{
+    <p><em>A carregar...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="Categoria" OnValidSubmit="UpdateCategoria" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary class="text-danger" />
+                <input type="hidden" name="Categoria.Id" value="@Categoria.Id" />
+
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <InputText id="nome" @bind-Value="Categoria.Nome" class="form-control" />
+                    <ValidationMessage For="() => Categoria.Nome" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="ordem" class="form-label">Ordem:</label>
+                    <InputNumber id="ordem" @bind-Value="Categoria.Ordem" class="form-control" />
+                    <ValidationMessage For="() => Categoria.Ordem" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="imagem" class="form-label">Imagem:</label>
+                    <InputFile id="imagem" OnChange="CarregaImagem" class="form-control" />
+                    @if (erroImagem != null)
+                    {
+                        <span class="text-danger">@erroImagem</span>
+                    }
+                </div>
+
+                @if (Categoria.Imagem != null)
+                {
+                    <div class="mb-3">
+                        <img src="@Imagens.Src(Categoria.Imagem, Categoria.UrlImagem)" alt="Pré-visualização" style="max-height: 120px;" />
+                    </div>
+                }
+
+                <button type="submit" class="btn btn-primary">Gravar</button>
+            </EditForm>
+        </div>
+    </div>
+
+    <div>
+        <a href="/categorias">Voltar à lista</a>
+    </div>
+}
+
+@code {
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public Categoria? Categoria { get; set; }
+
+    private string? erroImagem;
+    private IBrowserFile? ficheiroImagem;
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Categoria ??= await context.Categorias.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (Categoria is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private void CarregaImagem(InputFileChangeEventArgs e)
+    {
+        ficheiroImagem = e.File;
+        erroImagem = Imagens.Valida(e.File.Name, e.File.Size);
+        if (erroImagem == null)
+        {
+            Categoria!.UrlImagem = e.File.Name;
+        }
+    }
+
+    private async Task UpdateCategoria()
+    {
+        if (erroImagem != null) return;
+
+        using var context = DbFactory.CreateDbContext();
+
+        // Regra: Não deixar gravar se o nome já existir noutra categoria diferente desta
+        if (context.Categorias.Any(c => c.Nome == Categoria!.Nome && c.Id != Categoria.Id))
+        {
+            Mensagens.Mostrar($"Já existe uma categoria com o nome '{Categoria!.Nome}'.", false);
+            return;
+        }
+
+        if (ficheiroImagem != null)
+        {
+            using var stream = ficheiroImagem.OpenReadStream(Imagens.TamanhoMaximo);
+            Categoria!.Imagem = await Imagens.LerBytesAsync(stream);
+        }
+
+        context.Attach(Categoria!).State = EntityState.Modified;
+
+        try
+        {
+            await context.SaveChangesAsync();
+            Mensagens.Mostrar("Categoria atualizada com sucesso.");
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            if (!CategoriaExists(Categoria!.Id))
+            {
+                NavigationManager.NavigateTo("notfound");
+            }
+            else
+            {
+                throw;
+            }
+        }
+
+        NavigationManager.NavigateTo("/categorias");
+    }
+
+    private bool CategoriaExists(int id)
+    {
+        using var context = DbFactory.CreateDbContext();
+        return context.Categorias.Any(e => e.Id == id);
+    }
+}

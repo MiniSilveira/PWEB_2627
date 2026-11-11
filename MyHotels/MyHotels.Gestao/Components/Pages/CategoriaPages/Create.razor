@@ -1,0 +1,102 @@
+﻿@page "/categorias/create"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IImagensService Imagens
+@inject IMensagensService Mensagens
+
+<PageTitle>Criar Categoria</PageTitle>
+
+<h1>Criar Categoria</h1>
+<hr />
+
+<Aviso />
+
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Categoria" OnValidSubmit="AddCategoria" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome:</label>
+                <InputText id="nome" @bind-Value="Categoria.Nome" class="form-control" />
+                <ValidationMessage For="() => Categoria.Nome" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="ordem" class="form-label">Ordem:</label>
+                <InputNumber id="ordem" @bind-Value="Categoria.Ordem" class="form-control" />
+                <ValidationMessage For="() => Categoria.Ordem" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="imagem" class="form-label">Imagem:</label>
+                <InputFile id="imagem" OnChange="CarregaImagem" class="form-control" />
+                @if (erroImagem != null)
+                {
+                    <span class="text-danger">@erroImagem</span>
+                }
+            </div>
+
+            @if (Categoria.Imagem != null)
+            {
+                <div class="mb-3">
+                    <img src="@Imagens.Src(Categoria.Imagem, Categoria.UrlImagem)" alt="Pré-visualização" style="max-height: 120px;" />
+                </div>
+            }
+
+            <button type="submit" class="btn btn-primary">Gravar</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/categorias">Voltar à lista</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    public Categoria Categoria { get; set; } = new();
+
+    private string? erroImagem;
+    private IBrowserFile? ficheiroImagem;
+
+    private void CarregaImagem(InputFileChangeEventArgs e)
+    {
+        ficheiroImagem = e.File;
+        erroImagem = Imagens.Valida(e.File.Name, e.File.Size);
+        if (erroImagem == null)
+        {
+            Categoria.UrlImagem = e.File.Name;
+        }
+    }
+
+    private async Task AddCategoria()
+    {
+        if (erroImagem != null) return;
+
+        using var context = DbFactory.CreateDbContext();
+
+        // Regra de negócio: evitar nomes repetidos e avisar
+        if (context.Categorias.Any(c => c.Nome == Categoria.Nome))
+        {
+            Mensagens.Mostrar($"Já existe uma categoria com o nome '{Categoria.Nome}'.", false);
+            return;
+        }
+
+        // Lê os bytes do ficheiro selecionado
+        if (ficheiroImagem != null)
+        {
+            using var stream = ficheiroImagem.OpenReadStream(Imagens.TamanhoMaximo);
+            Categoria.Imagem = await Imagens.LerBytesAsync(stream);
+        }
+
+        context.Categorias.Add(Categoria);
+        await context.SaveChangesAsync();
+
+        Mensagens.Mostrar("Categoria criada com sucesso.");
+        NavigationManager.NavigateTo("/categorias");
+    }
+}

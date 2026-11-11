@@ -1,0 +1,36 @@
+﻿@page "/modosdisponibilizacao"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@using Microsoft.AspNetCore.Components.QuickGrid
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+
+<PageTitle>Modos de Disponibilização</PageTitle>
+
+<h1>Modos de Disponibilização</h1>
+
+<Aviso />
+
+<p>
+    <a href="modosdisponibilizacao/create" class="btn btn-primary">Criar novo</a>
+</p>
+
+<QuickGrid Class="table" Items="context.ModosDisponibilizacao">
+    <PropertyColumn Property="mododisponibilizacao => mododisponibilizacao.Nome" Title="Modo" />
+
+    <TemplateColumn Context="mododisponibilizacao">
+        <a href="@($"modosdisponibilizacao/edit?id={mododisponibilizacao.Id}")">Editar</a> |
+        <a href="@($"modosdisponibilizacao/details?id={mododisponibilizacao.Id}")">Detalhes</a> |
+        <a href="@($"modosdisponibilizacao/delete?id={mododisponibilizacao.Id}")">Apagar</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private MyHotels.Gestao.Data.ApplicationDbContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

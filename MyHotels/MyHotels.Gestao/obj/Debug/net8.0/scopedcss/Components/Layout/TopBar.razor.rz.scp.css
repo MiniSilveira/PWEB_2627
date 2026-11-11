@@ -1,0 +1,30 @@
+.top-row[b-ck4e8hs8v4] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item[b-ck4e8hs8v4] {
+    display: inline-block;
+}
+
+.nav-link[b-ck4e8hs8v4] {
+    color: #333;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+    .nav-link:hover[b-ck4e8hs8v4] {
+        color: #007bff;
+    }
+
+.bi[b-ck4e8hs8v4] {
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,69 @@
+﻿@page "/modosdisponibilizacao/edit"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IMensagensService Mensagens
+
+<PageTitle>Editar Modo de Disponibilização</PageTitle>
+
+<h1>Editar Modo de Disponibilização</h1>
+<hr />
+
+@if (ModoDisponibilizacao is null)
+{
+    <p><em>A carregar...</em></p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <EditForm method="post" Model="ModoDisponibilizacao" OnValidSubmit="UpdateModoDisponibilizacao" FormName="edit" Enhance>
+                <DataAnnotationsValidator />
+                <ValidationSummary class="text-danger" />
+                <input type="hidden" name="ModoDisponibilizacao.Id" value="@ModoDisponibilizacao.Id" />
+
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <InputText id="nome" @bind-Value="ModoDisponibilizacao.Nome" class="form-control" />
+                    <ValidationMessage For="() => ModoDisponibilizacao.Nome" class="text-danger" />
+                </div>
+
+                <button type="submit" class="btn btn-primary">Gravar</button>
+            </EditForm>
+        </div>
+    </div>
+
+    <div>
+        <a href="/modosdisponibilizacao">Voltar à lista</a>
+    </div>
+}
+
+@code {
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm]
+    public ModoDisponibilizacao? ModoDisponibilizacao { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        ModoDisponibilizacao ??= await context.ModosDisponibilizacao.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (ModoDisponibilizacao is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private async Task UpdateModoDisponibilizacao()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Attach(ModoDisponibilizacao!).State = EntityState.Modified;
+        await context.SaveChangesAsync();
+
+        Mensagens.Mostrar("Modo de disponibilização atualizado.");
+        NavigationManager.NavigateTo("/modosdisponibilizacao");
+    }
+}

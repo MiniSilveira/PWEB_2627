@@ -1,0 +1,57 @@
+﻿
+
+@inject NavigationManager NavigationManager
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">@AppConfig.Titulo</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Gestão de Loja
+            </NavLink>
+        </div>
+
+        <AuthorizeView Roles="Administrador,Funcionario">
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="produtos">
+                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Produtos
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="categorias">
+                    <span class="bi bi-tags-fill-nav-menu" aria-hidden="true"></span> Categorias
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="modosdisponibilizacao">
+                    <span class="bi bi-bag-check-fill-nav-menu" aria-hidden="true"></span> Modos Disp.
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="reservas">
+                    <span class="bi bi-calendar-check-nav-menu" aria-hidden="true"></span> Gerir Reservas
+                </NavLink>
+            </div>
+        </AuthorizeView>
+
+        <AuthorizeView Roles="Administrador">
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="utilizadores">
+                    <span class="bi bi-people-fill-nav-menu" aria-hidden="true"></span> Gerir Utilizadores
+                </NavLink>
+            </div>
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="roles">
+                    <span class="bi bi-person-badge-fill-nav-menu" aria-hidden="true"></span> Gerir Roles
+                </NavLink>
+            </div>
+        </AuthorizeView>
+    </nav>
+</div>

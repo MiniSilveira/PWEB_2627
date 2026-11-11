@@ -1,0 +1,81 @@
+﻿@page "/produtos/details"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IImagensService Imagens
+
+<PageTitle>Detalhes do Produto</PageTitle>
+
+<h1>Detalhes do Produto</h1>
+
+<div>
+    <hr />
+    @if (Produto is null)
+    {
+        <p><em>A carregar...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+            <dt class="col-sm-3">Nome:</dt>
+            <dd class="col-sm-9">@Produto.Nome</dd>
+
+            <dt class="col-sm-3">Detalhe:</dt>
+            <dd class="col-sm-9">@Produto.Detalhe</dd>
+
+            <dt class="col-sm-3">Preço Base:</dt>
+            <dd class="col-sm-9">@Produto.PrecoBase.ToString("C")</dd>
+
+            <dt class="col-sm-3">Stock:</dt>
+            <dd class="col-sm-9">@Produto.Disponibilidade</dd>
+
+            <dt class="col-sm-3">Visível:</dt>
+            <dd class="col-sm-9">@(Produto.Visivel ? "Sim" : "Não")</dd>
+
+            <dt class="col-sm-3">Categoria:</dt>
+            <dd class="col-sm-9">@Produto.Categoria?.Nome</dd>
+
+            <dt class="col-sm-3">Modo Disponibilização:</dt>
+            <dd class="col-sm-9">@(Produto.ModoDisponibilizacao?.Nome ?? "Nenhum")</dd>
+
+            <dt class="col-sm-3">Imagem:</dt>
+            <dd class="col-sm-9">
+                @if (Produto.Imagem != null)
+                {
+                    <img src="@Imagens.Src(Produto.Imagem, Produto.UrlImagem)" alt="Imagem do produto" style="max-height: 150px;" />
+                }
+                else
+                {
+                    <span>Sem imagem</span>
+                }
+            </dd>
+        </dl>
+        <div>
+            <a href="@($"/produtos/edit?id={Produto.Id}")" class="btn btn-primary">Editar</a> |
+            <a href="/produtos">Voltar à lista</a>
+        </div>
+    }
+</div>
+
+@code {
+    Produto? Produto;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        // Include carrega as relações para podermos mostrar os nomes
+        Produto = await context.Produtos
+            .Include(p => p.Categoria)
+            .Include(p => p.ModoDisponibilizacao)
+            .FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (Produto is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

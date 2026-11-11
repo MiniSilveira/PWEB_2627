@@ -1,0 +1,73 @@
+﻿@page "/produtos/delete"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IImagensService Imagens
+@inject IMensagensService Mensagens
+
+<PageTitle>Apagar Produto</PageTitle>
+
+<h1>Apagar Produto</h1>
+
+<h3>Tem a certeza que deseja apagar este alojamento?</h3>
+<div>
+    <hr />
+    @if (Produto is null)
+    {
+        <p><em>A carregar...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+            <dt class="col-sm-3">Nome:</dt>
+            <dd class="col-sm-9">@Produto.Nome</dd>
+
+            <dt class="col-sm-3">Categoria:</dt>
+            <dd class="col-sm-9">@Produto.Categoria?.Nome</dd>
+
+            <dt class="col-sm-3">Imagem:</dt>
+            <dd class="col-sm-9">
+                @if (Produto.Imagem != null)
+                {
+                    <img src="@Imagens.Src(Produto.Imagem, Produto.UrlImagem)" alt="Imagem do produto" style="max-height: 120px;" />
+                }
+            </dd>
+        </dl>
+
+        <EditForm method="post" Model="Produto" OnValidSubmit="DeleteProduto" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(Produto is null)">Apagar</button> |
+            <a href="/produtos">Voltar à lista</a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    Produto? Produto;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Produto = await context.Produtos
+            .Include(p => p.Categoria)
+            .FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (Produto is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private async Task DeleteProduto()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Produtos.Remove(Produto!);
+        await context.SaveChangesAsync();
+
+        Mensagens.Mostrar("Produto apagado com sucesso.");
+        NavigationManager.NavigateTo("/produtos");
+    }
+}

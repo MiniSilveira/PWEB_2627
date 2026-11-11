@@ -1,0 +1,47 @@
+﻿@page "/modosdisponibilizacao/create"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IMensagensService Mensagens
+
+<PageTitle>Criar Modo de Disponibilização</PageTitle>
+
+<h1>Criar Modo de Disponibilização</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="ModoDisponibilizacao" OnValidSubmit="AddModoDisponibilizacao" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome:</label>
+                <InputText id="nome" @bind-Value="ModoDisponibilizacao.Nome" class="form-control" />
+                <ValidationMessage For="() => ModoDisponibilizacao.Nome" class="text-danger" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Gravar</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/modosdisponibilizacao">Voltar à lista</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    public ModoDisponibilizacao ModoDisponibilizacao { get; set; } = new();
+
+    private async Task AddModoDisponibilizacao()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.ModosDisponibilizacao.Add(ModoDisponibilizacao);
+        await context.SaveChangesAsync();
+
+        Mensagens.Mostrar("Modo de disponibilização criado com sucesso.");
+        NavigationManager.NavigateTo("/modosdisponibilizacao");
+    }
+}

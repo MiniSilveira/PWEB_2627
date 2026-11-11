@@ -1,0 +1,41 @@
+﻿@page "/categorias"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@using Microsoft.AspNetCore.Components.QuickGrid
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject IImagensService Imagens
+
+<PageTitle>Categorias</PageTitle>
+
+<h1>Categorias</h1>
+
+<Aviso />
+
+<p>
+    <a href="categorias/create" class="btn btn-primary">Criar nova</a>
+</p>
+
+<QuickGrid Class="table" Items="context.Categorias">
+    <TemplateColumn Context="categoria" Title="Imagem">
+        <img src="@Imagens.Src(categoria.Imagem, categoria.UrlImagem)" alt="Imagem da categoria" style="max-height: 50px;" />
+    </TemplateColumn>
+    <PropertyColumn Property="categoria => categoria.Nome" Title="Nome" />
+    <PropertyColumn Property="categoria => categoria.Ordem" Title="Ordem" />
+
+    <TemplateColumn Context="categoria">
+        <a href="@($"categorias/edit?id={categoria.Id}")">Editar</a> |
+        <a href="@($"categorias/details?id={categoria.Id}")">Detalhes</a> |
+        <a href="@($"categorias/delete?id={categoria.Id}")">Apagar</a>
+    </TemplateColumn>
+</QuickGrid>
+
+@code {
+    private MyHotels.Gestao.Data.ApplicationDbContext context = default!;
+
+    protected override void OnInitialized()
+    {
+        context = DbFactory.CreateDbContext();
+    }
+
+    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+}

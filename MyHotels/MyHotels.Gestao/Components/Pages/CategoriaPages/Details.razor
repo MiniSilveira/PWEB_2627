@@ -1,0 +1,62 @@
+﻿@page "/categorias/details"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IImagensService Imagens
+
+<PageTitle>Detalhes da Categoria</PageTitle>
+
+<h1>Detalhes da Categoria</h1>
+
+<div>
+    <hr />
+    @if (Categoria is null)
+    {
+        <p><em>A carregar...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+            <dt class="col-sm-2">Nome:</dt>
+            <dd class="col-sm-10">@Categoria.Nome</dd>
+
+            <dt class="col-sm-2">Ordem:</dt>
+            <dd class="col-sm-10">@Categoria.Ordem</dd>
+
+            <dt class="col-sm-2">Imagem:</dt>
+            <dd class="col-sm-10">
+                @if (Categoria.Imagem != null)
+                {
+                    <img src="@Imagens.Src(Categoria.Imagem, Categoria.UrlImagem)" alt="Imagem da categoria" style="max-height: 120px;" />
+                }
+                else
+                {
+                    <span>Sem imagem</span>
+                }
+            </dd>
+        </dl>
+        <div>
+            <a href="@($"/categorias/edit?id={Categoria.Id}")" class="btn btn-primary">Editar</a> |
+            <a href="/categorias">Voltar à lista</a>
+        </div>
+    }
+</div>
+
+@code {
+    Categoria? Categoria;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        Categoria = await context.Categorias.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (Categoria is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

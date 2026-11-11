@@ -1,0 +1,23 @@
+﻿@implements IDisposable
+@inject IMensagensService Mensagens
+
+@if (Mensagens.Mensagem != null)
+{
+    <div class="alert @(Mensagens.Sucesso ? "alert-success" : "alert-danger") alert-dismissible fade show" role="alert" style="margin-top: 1rem;">
+        @Mensagens.Mensagem
+        <button type="button" class="btn-close" aria-label="Close" @onclick="Mensagens.Limpar"></button>
+    </div>
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        // Subscreve o evento para redesenhar o componente sempre que a mensagem mudar
+        Mensagens.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        Mensagens.OnChange -= StateHasChanged;
+    }
+}

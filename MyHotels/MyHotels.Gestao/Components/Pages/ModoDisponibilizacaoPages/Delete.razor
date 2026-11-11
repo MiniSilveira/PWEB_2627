@@ -1,0 +1,68 @@
+﻿@page "/modosdisponibilizacao/delete"
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Roles = "Administrador,Funcionario")]
+@inject IDbContextFactory<MyHotels.Gestao.Data.ApplicationDbContext> DbFactory
+@inject NavigationManager NavigationManager
+@inject IMensagensService Mensagens
+
+<PageTitle>Apagar Modo de Disponibilização</PageTitle>
+
+<h1>Apagar Modo de Disponibilização</h1>
+
+<h3>Tem a certeza que deseja apagar este registo?</h3>
+<div>
+    <hr />
+    @if (ModoDisponibilizacao is null)
+    {
+        <p><em>A carregar...</em></p>
+    }
+    else
+    {
+        <dl class="row">
+            <dt class="col-sm-2">Nome:</dt>
+            <dd class="col-sm-10">@ModoDisponibilizacao.Nome</dd>
+        </dl>
+
+        <EditForm method="post" Model="ModoDisponibilizacao" OnValidSubmit="DeleteModo" FormName="delete" Enhance>
+            <button type="submit" class="btn btn-danger" disabled="@(ModoDisponibilizacao is null)">Apagar</button> |
+            <a href="/modosdisponibilizacao">Voltar à lista</a>
+        </EditForm>
+    }
+</div>
+
+@code {
+    ModoDisponibilizacao? ModoDisponibilizacao;
+
+    [SupplyParameterFromQuery]
+    public int Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        ModoDisponibilizacao = await context.ModosDisponibilizacao.FirstOrDefaultAsync(m => m.Id == Id);
+
+        if (ModoDisponibilizacao is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+
+    private async Task DeleteModo()
+    {
+        using var context = DbFactory.CreateDbContext();
+
+        // ALÍNEA 4.K: Carregar os produtos antes de apagar para evitar erro de REFERENCE constraint
+        var aApagar = await context.ModosDisponibilizacao
+            .Include(m => m.Produtos)
+            .FirstOrDefaultAsync(m => m.Id == ModoDisponibilizacao!.Id);
+
+        if (aApagar != null)
+        {
+            context.ModosDisponibilizacao.Remove(aApagar); // O EF Core descola os "post-its" automaticamente
+            await context.SaveChangesAsync();
+            Mensagens.Mostrar("Modo de disponibilização apagado.");
+        }
+
+        NavigationManager.NavigateTo("/modosdisponibilizacao");
+    }
+}
