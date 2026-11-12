@@ -8,7 +8,7 @@ public static class Inicializacao
 {
     public static async Task CriaDadosIniciais(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
     {
-        string[] roles = { "Administrador", "Funcionario", "Cliente", "Fornecedor" };
+        string[] roles = { "Administrador", "Funcionario", "Cliente" };
         foreach (var role in roles)
         {
             if (!await roleManager.RoleExistsAsync(role))

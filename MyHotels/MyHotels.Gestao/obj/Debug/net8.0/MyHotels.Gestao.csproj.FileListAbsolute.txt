@@ -267,3 +267,4 @@ C:\Users\minis\Documents\GitHub\PWEB_2627\MyHotels\MyHotels.Gestao\bin\Debug\net
 C:\Users\minis\Documents\GitHub\PWEB_2627\MyHotels\MyHotels.Gestao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\minis\Documents\GitHub\PWEB_2627\MyHotels\MyHotels.Gestao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\minis\Documents\GitHub\PWEB_2627\MyHotels\MyHotels.Gestao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\minis\Documents\GitHub\PWEB_2627\MyHotels\MyHotels.Gestao\obj\Debug\net8.0\MyHotels.Gestao.sourcelink.json
