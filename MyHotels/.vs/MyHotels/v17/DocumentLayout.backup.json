@@ -3,120 +3,180 @@
   "WorkspaceRootPath": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\data\\inicializacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\controllers\\modosdisponibilizacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\controllers\\modosdisponibilizacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\controllers\\apicontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\mododisponibilizacaopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\produtopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\produtopages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\produtopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\produtopages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\produtopages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\produtopages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\mododisponibilizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\mododisponibilizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\produtopages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\imododisponibilizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\imododisponibilizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\categoriapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\categoriapages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\categoriapages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\categoriapages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\imagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\imagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\categoriapages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\services\\resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\services\\resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\erros\\errosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\erros\\errosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\categoriapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\categoriapages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\erros\\codigoserro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\erros\\codigoserro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\shared\\confirmacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\shared\\confirmacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\shared\\aviso.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\shared\\aviso.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\repositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\repositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\repositories\\mododisponibilizacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\repositories\\mododisponibilizacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\services\\mensagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\services\\mensagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\repositories\\imododisponibilizacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\repositories\\imododisponibilizacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\services\\imagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\services\\imagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\interfaces\\imensagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\interfaces\\imensagensservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\repositories\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\repositories\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\interfaces\\iimagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\interfaces\\iimagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\mappers\\produtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\mappers\\produtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\mappers\\mododisponibilizacaomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\mappers\\mododisponibilizacaomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\mappers\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\mappers\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\layout\\topbar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\layout\\topbar.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\criarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\criarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\layout\\topbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\layout\\topbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\atualizarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\atualizarcategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\sobre.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\components\\pages\\sobre.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\atualizarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\atualizarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\atualizarmododisponibilizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\atualizarmododisponibilizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\criarmododisponibilizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\criarmododisponibilizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\mododisponibilizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\mododisponibilizacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\dtos\\referenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\dtos\\referenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\data\\verificacaobasedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\data\\verificacaobasedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\entities\\morada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\entities\\morada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\entities\\mododisponiblizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\entities\\mododisponiblizacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.api\\myhotels.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF08C288-0E58-43FC-8BC7-887F16C0CB11}|MyHotels.API\\MyHotels.API.csproj|solutionrelative:myhotels.api\\myhotels.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\components\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -135,16 +195,8 @@
       "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|solutionrelative:myhotels.gestao\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB122F8B-2B87-48CA-AC94-BD3FCF087841}|MyHotels.Gestao\\MyHotels.Gestao.csproj|c:\\users\\minis\\documents\\github\\pweb_2627\\myhotels\\myhotels.gestao\\entities\\morada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -191,462 +243,540 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         },
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Delete.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Delete.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Delete.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Delete.razor",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:27:00.823Z",
+              "DocumentIndex": 0,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "MyHotels.API\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:55:41.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Delete.razor",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowEgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:24:15.777Z"
+              "DocumentIndex": 1,
+              "Title": "ModosDisponibilizacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\ModosDisponibilizacaoController.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Controllers\\ModosDisponibilizacaoController.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\ModosDisponibilizacaoController.cs",
+              "RelativeToolTip": "MyHotels.API\\Controllers\\ModosDisponibilizacaoController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:55:21.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Details.razor",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAowFAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:24:05.382Z"
+              "DocumentIndex": 2,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "MyHotels.API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:54:59.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Create.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Create.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Create.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Create.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T16:52:18.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Index.razor",
-              "ViewState": "AgIAADQAAAAAAAAAAAAowDUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:22:31.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Delete.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowFUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:20:05.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Create.razor",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAowKIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T16:50:59.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ProdutoPages\\Edit.razor",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAowLIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T16:51:33.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Details.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Details.razor",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:19:53.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inicializacao.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Inicializacao.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\Inicializacao.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Inicializacao.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Data\\Inicializacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Title": "ApiControllerBase.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\ApiControllerBase.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Controllers\\ApiControllerBase.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Controllers\\ApiControllerBase.cs",
+              "RelativeToolTip": "MyHotels.API\\Controllers\\ApiControllerBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:16:01.591Z",
+              "WhenOpened": "2026-11-12T23:54:37.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Index.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Index.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Index.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Index.razor",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowCMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:26:18.455Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Program.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Program.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Program.cs",
+              "RelativeToolTip": "MyHotels.API\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAowEsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:53:28.522Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Edit.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Edit.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Edit.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\ModoDisponibilizacaoPages\\Edit.razor",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:26:50.961Z"
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MyHotels.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\appsettings.json",
+              "RelativeToolTip": "MyHotels.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-12T23:53:15.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Index.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:15:47.567Z"
+              "DocumentIndex": 6,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:46:44.319Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\_Imports.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T04:19:55.077Z"
+              "DocumentIndex": 7,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\IProdutoService.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\IProdutoService.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:46:09.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModoDisponibilizacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\ModoDisponibilizacaoService.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\ModoDisponibilizacaoService.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\ModoDisponibilizacaoService.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\ModoDisponibilizacaoService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:45:45.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IModoDisponibilizacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\IModoDisponibilizacaoService.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\IModoDisponibilizacaoService.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\IModoDisponibilizacaoService.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\IModoDisponibilizacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:44:46.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:42:12.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\ICategoriaService.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\ICategoriaService.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\ICategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:41:19.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Edit.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Edit.razor",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAowI8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T16:49:44.156Z"
+              "Title": "Imagens.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\Imagens.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\Imagens.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\Imagens.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\Imagens.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:40:08.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Confirmacao.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Shared\\Confirmacao.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Shared\\Confirmacao.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Shared\\Confirmacao.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Shared\\Confirmacao.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:08:50.458Z"
+              "DocumentIndex": 13,
+              "Title": "Resultado.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\Resultado.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Services\\Resultado.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Services\\Resultado.cs",
+              "RelativeToolTip": "MyHotels.API\\Services\\Resultado.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA7wBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:39:48.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrosApi.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Erros\\ErrosApi.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Erros\\ErrosApi.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Erros\\ErrosApi.cs",
+              "RelativeToolTip": "MyHotels.API\\Erros\\ErrosApi.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA7wBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:39:18.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Create.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\CategoriaPages\\Create.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T16:48:44.798Z"
+              "Title": "CodigosErro.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Erros\\CodigosErro.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Erros\\CodigosErro.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Erros\\CodigosErro.cs",
+              "RelativeToolTip": "MyHotels.API\\Erros\\CodigosErro.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:38:58.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "MyHotels.API\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:36:20.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Aviso.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Shared\\Aviso.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Shared\\Aviso.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Shared\\Aviso.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Shared\\Aviso.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:08:22.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MensagensService.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Services\\MensagensService.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Services\\MensagensService.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Services\\MensagensService.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Services\\MensagensService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBYAAAABAAAAAAAAAA==",
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Repositories\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\IProdutoRepository.cs",
+              "RelativeToolTip": "MyHotels.API\\Repositories\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T17:05:35.846Z"
+              "WhenOpened": "2026-11-12T23:35:51.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Program.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Program.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Program.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowB4AAAB2AAAAAAAAAA==",
+              "Title": "ModoDisponibilizacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\ModoDisponibilizacaoRepository.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Repositories\\ModoDisponibilizacaoRepository.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\ModoDisponibilizacaoRepository.cs",
+              "RelativeToolTip": "MyHotels.API\\Repositories\\ModoDisponibilizacaoRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:16:46.64Z"
+              "WhenOpened": "2026-11-12T23:35:25.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IModoDisponibilizacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\IModoDisponibilizacaoRepository.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Repositories\\IModoDisponibilizacaoRepository.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\IModoDisponibilizacaoRepository.cs",
+              "RelativeToolTip": "MyHotels.API\\Repositories\\IModoDisponibilizacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:34:58.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "ImagensService.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Services\\ImagensService.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Services\\ImagensService.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Services\\ImagensService.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Services\\ImagensService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "MyHotels.API\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T17:05:16.071Z"
+              "WhenOpened": "2026-11-12T23:34:22.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "IMensagensService.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Interfaces\\IMensagensService.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Interfaces\\IMensagensService.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Interfaces\\IMensagensService.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Interfaces\\IMensagensService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Repositories\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Repositories\\ICategoriaRepository.cs",
+              "RelativeToolTip": "MyHotels.API\\Repositories\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T17:04:48.397Z"
+              "WhenOpened": "2026-11-12T23:33:50.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "IImagemService.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Interfaces\\IImagemService.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Interfaces\\IImagemService.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Interfaces\\IImagemService.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Interfaces\\IImagemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "ProdutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Mappers\\ProdutoMapper.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Mappers\\ProdutoMapper.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Mappers\\ProdutoMapper.cs",
+              "RelativeToolTip": "MyHotels.API\\Mappers\\ProdutoMapper.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T17:03:38.8Z"
+              "WhenOpened": "2026-11-12T23:31:32.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Routes.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T17:02:08.317Z"
+              "Title": "ModoDisponibilizacaoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Mappers\\ModoDisponibilizacaoMapper.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Mappers\\ModoDisponibilizacaoMapper.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Mappers\\ModoDisponibilizacaoMapper.cs",
+              "RelativeToolTip": "MyHotels.API\\Mappers\\ModoDisponibilizacaoMapper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:31:09.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T04:54:20.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T04:53:33.298Z"
+              "Title": "CategoriaMapper.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Mappers\\CategoriaMapper.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Mappers\\CategoriaMapper.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Mappers\\CategoriaMapper.cs",
+              "RelativeToolTip": "MyHotels.API\\Mappers\\CategoriaMapper.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:30:22.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "TopBar.razor.css",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\TopBar.razor.css",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Layout\\TopBar.razor.css",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\TopBar.razor.css",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Layout\\TopBar.razor.css",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-11-11T04:53:21.725Z"
+              "Title": "CriarCategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CriarCategoriaDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\CriarCategoriaDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CriarCategoriaDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\CriarCategoriaDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:23:16.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CategoriaDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\CategoriaDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CategoriaDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\CategoriaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:21:56.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "TopBar.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\TopBar.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Layout\\TopBar.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Layout\\TopBar.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Layout\\TopBar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T04:52:48.922Z"
+              "Title": "AtualizarCategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\AtualizarCategoriaDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\AtualizarCategoriaDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\AtualizarCategoriaDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\AtualizarCategoriaDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:23:52.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "Sobre.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Sobre.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\Sobre.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Sobre.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\Sobre.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T04:51:27.29Z"
+              "Title": "ProdutoDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\ProdutoDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\ProdutoDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\ProdutoDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\ProdutoDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wBAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:26:07.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "Home.razor.css",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-11-11T04:48:17.361Z"
+              "Title": "CriarProdutoDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CriarProdutoDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\CriarProdutoDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CriarProdutoDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\CriarProdutoDto.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA7wCEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:26:29.749Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-11T04:46:02.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "20261111044339_CorrecaoCampos.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AtualizarProdutoDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\AtualizarProdutoDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\AtualizarProdutoDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\AtualizarProdutoDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\AtualizarProdutoDto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wBwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:43:39.339Z"
+              "WhenOpened": "2026-11-12T23:27:00.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "AppConfig.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\AppConfig.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\AppConfig.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\AppConfig.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\AppConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "AtualizarModoDisponibilizacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\AtualizarModoDisponibilizacaoDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\AtualizarModoDisponibilizacaoDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\AtualizarModoDisponibilizacaoDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\AtualizarModoDisponibilizacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:16:32.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\Categoria.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Entities\\Categoria.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\Categoria.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Entities\\Categoria.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowBUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T03:59:54.626Z"
+              "WhenOpened": "2026-11-12T23:25:48.047Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\Produto.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Entities\\Produto.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\Produto.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Entities\\Produto.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowCwAAAABAAAAAAAAAA==",
+              "Title": "CriarModoDisponibilizacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CriarModoDisponibilizacaoDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\CriarModoDisponibilizacaoDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\CriarModoDisponibilizacaoDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\CriarModoDisponibilizacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:00:38.817Z"
+              "WhenOpened": "2026-11-12T23:25:01.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "20261111043615_MoradaEValidacoes.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "ModoDisponibilizacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\ModoDisponibilizacaoDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\ModoDisponibilizacaoDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\ModoDisponibilizacaoDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\ModoDisponibilizacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:36:15.675Z"
+              "WhenOpened": "2026-11-12T23:24:30.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Title": "ReferenciaDto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\ReferenciaDto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\DTOs\\ReferenciaDto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\DTOs\\ReferenciaDto.cs",
+              "RelativeToolTip": "MyHotels.API\\DTOs\\ReferenciaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:12:27.686Z"
+              "WhenOpened": "2026-11-12T23:21:37.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
+              "Title": "VerificacaoBaseDados.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Data\\VerificacaoBaseDados.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Data\\VerificacaoBaseDados.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Data\\VerificacaoBaseDados.cs",
+              "RelativeToolTip": "MyHotels.API\\Data\\VerificacaoBaseDados.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:17:59.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MyHotels.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:17:14.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "MyHotels.API\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:16:33.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Morada.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\Morada.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Entities\\Morada.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\Morada.cs",
+              "RelativeToolTip": "MyHotels.API\\Entities\\Morada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:13:21.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\Produto.cs",
+              "RelativeToolTip": "MyHotels.API\\Entities\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:13:27.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\ApplicationUser.cs",
@@ -654,11 +784,142 @@
               "RelativeToolTip": "MyHotels.Gestao\\Data\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:01:11.604Z"
+              "WhenOpened": "2026-11-11T04:01:11.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
+              "Title": "ModoDisponiblizacao.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\ModoDisponiblizacao.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Entities\\ModoDisponiblizacao.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\ModoDisponiblizacao.cs",
+              "RelativeToolTip": "MyHotels.API\\Entities\\ModoDisponiblizacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:13:10.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "MyHotels.API\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\Entities\\Categoria.cs",
+              "RelativeToolTip": "MyHotels.API\\Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T23:12:51.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MyHotels.API.csproj",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\MyHotels.API.csproj",
+              "RelativeDocumentMoniker": "MyHotels.API\\MyHotels.API.csproj",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.API\\MyHotels.API.csproj",
+              "RelativeToolTip": "MyHotels.API\\MyHotels.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-12T23:10:06.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Home.razor.css",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
+              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
+              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\Home.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-11T04:48:17.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MyHotels.Gestao\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MyHotels.Gestao\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-11T04:46:02.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20261111044339_CorrecaoCampos.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
+              "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
+              "RelativeToolTip": "MyHotels.Gestao\\Data\\Migrations\\20261111044339_CorrecaoCampos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T04:43:39.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\AppConfig.cs",
+              "RelativeDocumentMoniker": "MyHotels.Gestao\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\AppConfig.cs",
+              "RelativeToolTip": "MyHotels.Gestao\\AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T04:16:32.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "MyHotels.Gestao\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\Produto.cs",
+              "RelativeToolTip": "MyHotels.Gestao\\Entities\\Produto.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T04:00:38.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20261111043615_MoradaEValidacoes.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
+              "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
+              "RelativeToolTip": "MyHotels.Gestao\\Data\\Migrations\\20261111043615_MoradaEValidacoes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T04:36:15.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MyHotels.Gestao\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T04:12:27.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "Morada.cs",
               "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\Morada.cs",
               "RelativeDocumentMoniker": "MyHotels.Gestao\\Entities\\Morada.cs",
@@ -666,11 +927,12 @@
               "RelativeToolTip": "MyHotels.Gestao\\Entities\\Morada.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA1wBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:30:44.452Z"
+              "WhenOpened": "2026-11-11T04:30:44.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "20261111042038_BDInicial.cs",
               "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Data\\Migrations\\20261111042038_BDInicial.cs",
               "RelativeDocumentMoniker": "MyHotels.Gestao\\Data\\Migrations\\20261111042038_BDInicial.cs",
@@ -678,11 +940,12 @@
               "RelativeToolTip": "MyHotels.Gestao\\Data\\Migrations\\20261111042038_BDInicial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:20:38.861Z"
+              "WhenOpened": "2026-11-11T04:20:38.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\appsettings.json",
               "RelativeDocumentMoniker": "MyHotels.Gestao\\appsettings.json",
@@ -690,11 +953,12 @@
               "RelativeToolTip": "MyHotels.Gestao\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-11T04:12:46.7Z"
+              "WhenOpened": "2026-11-11T04:12:46.7Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "ModoDisponiblizacao.cs",
               "DocumentMoniker": "C:\\Users\\minis\\Documents\\GitHub\\PWEB_2627\\MyHotels\\MyHotels.Gestao\\Entities\\ModoDisponiblizacao.cs",
               "RelativeDocumentMoniker": "MyHotels.Gestao\\Entities\\ModoDisponiblizacao.cs",
@@ -702,7 +966,8 @@
               "RelativeToolTip": "MyHotels.Gestao\\Entities\\ModoDisponiblizacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:00:18.241Z"
+              "WhenOpened": "2026-11-11T04:00:18.241Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyHotels.API</name>
+    </assembly>
+    <members>
+        <member name="M:MyHotels.API.Controllers.CategoriasController.GetAll">
+            <summary>Devolve a lista de todas as categorias, ordenadas pela Ordem.</summary>
+        </member>
+        <member name="M:MyHotels.API.Controllers.CategoriasController.GetById(System.Int32)">
+            <summary>Devolve uma categoria pelo seu Id.</summary>
+        </member>
+        <member name="M:MyHotels.API.Controllers.CategoriasController.Create(MyHotels.API.DTOs.CriarCategoriaDto)">
+            <summary>Cria uma nova categoria.</summary>
+        </member>
+        <member name="M:MyHotels.API.Controllers.CategoriasController.Update(System.Int32,MyHotels.API.DTOs.AtualizarCategoriaDto)">
+            <summary>Altera uma categoria existente.</summary>
+        </member>
+        <member name="M:MyHotels.API.Controllers.CategoriasController.Delete(System.Int32)">
+            <summary>Apaga uma categoria se não tiver alojamentos associados.</summary>
+        </member>
+        <member name="M:MyHotels.API.Controllers.ProdutosController.GetAll(System.Nullable{System.Int32},System.String)">
+            <summary>Lista de alojamentos. Pode ser filtrada por categoria ou texto.</summary>
+        </member>
+        <member name="T:MyHotels.API.DTOs.AtualizarCategoriaDto">
+            <summary>Os dados necessários para alterar uma categoria existente. O id viaja no URL.</summary>
+        </member>
+        <member name="T:MyHotels.API.DTOs.CriarCategoriaDto">
+            <summary>Os dados necessários para criar uma nova categoria.</summary>
+        </member>
+        <member name="P:MyHotels.API.DTOs.CriarCategoriaDto.Nome">
+            <summary>O nome da categoria. Máximo de 100 caracteres.</summary>
+            <example>Aparthotéis</example>
+        </member>
+        <member name="P:MyHotels.API.DTOs.CriarCategoriaDto.Ordem">
+            <summary>A ordem de apresentação da categoria (0 a 1000).</summary>
+            <example>3</example>
+        </member>
+        <member name="P:MyHotels.API.DTOs.CriarCategoriaDto.Imagem">
+            <summary>A imagem da categoria, codificada em formato Base64. Apenas PNG ou JPG, até 500KB. Null se não houver imagem.</summary>
+        </member>
+        <member name="T:MyHotels.API.DTOs.CriarModoDisponibilizacaoDto">
+            <summary>Os dados para criar um modo de disponibilização (ex: Tudo Incluído).</summary>
+        </member>
+        <member name="P:MyHotels.API.DTOs.CriarModoDisponibilizacaoDto.Nome">
+            <summary>O nome do modo. Máximo de 100 caracteres.</summary>
+            <example>Meia-Pensão</example>
+        </member>
+        <member name="T:MyHotels.API.DTOs.CriarProdutoDto">
+            <summary>Os dados para criar um novo alojamento.</summary>
+        </member>
+        <member name="P:MyHotels.API.DTOs.CriarProdutoDto.PrecoBase">
+            <summary>O preço base, maior do que zero, com duas casas decimais no máximo.</summary>
+            <example>150.00</example>
+        </member>
+        <member name="P:MyHotels.API.DTOs.CriarProdutoDto.CategoriaId">
+            <summary>A categoria do alojamento.</summary>
+            <example>1</example>
+        </member>
+    </members>
+</doc>
